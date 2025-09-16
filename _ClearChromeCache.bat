@@ -93,6 +93,7 @@ REM ========================================================
 REM ============= Custom top folders to record =============
 REM ========================================================
     set FOLDERS=!FOLDERS! "DeferredBrowserMetrics"
+    set FOLDERS=!FOLDERS! "Notification Resources"
     set FOLDERS=!FOLDERS! "ThirdPartyModuleList64"
     set FOLDERS=!FOLDERS! "Webstore Downloads"
 
@@ -100,6 +101,7 @@ REM ========================================================
 REM ============= Custom sub folders to record =============
 REM ========================================================
     set FOLDERS=!FOLDERS! "Default\coupon_db"
+    set FOLDERS=!FOLDERS! "Default\DawnCache"
     set FOLDERS=!FOLDERS! "Default\feedv2"
 REM set FOLDERS=!FOLDERS! "Default\File System"
 REM set FOLDERS=!FOLDERS! "Default\IndexedDB"
