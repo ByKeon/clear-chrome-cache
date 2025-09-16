@@ -94,6 +94,8 @@ REM ============= Custom top folders to record =============
 REM ========================================================
     set FOLDERS=!FOLDERS! "DeferredBrowserMetrics"
     set FOLDERS=!FOLDERS! "Notification Resources"
+    set FOLDERS=!FOLDERS! "SODA"
+    set FOLDERS=!FOLDERS! "SODALanguagePacks"
     set FOLDERS=!FOLDERS! "ThirdPartyModuleList64"
     set FOLDERS=!FOLDERS! "Webstore Downloads"
 
