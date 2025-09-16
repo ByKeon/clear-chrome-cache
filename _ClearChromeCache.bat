@@ -93,9 +93,12 @@ REM ========================================================
 REM ============= Custom top folders to record =============
 REM ========================================================
     set FOLDERS=!FOLDERS! "DeferredBrowserMetrics"
+    set FOLDERS=!FOLDERS! "Local Traces"
+    set FOLDERS=!FOLDERS! "OptGuideOnDeviceModel"
     set FOLDERS=!FOLDERS! "Notification Resources"
     set FOLDERS=!FOLDERS! "SODA"
     set FOLDERS=!FOLDERS! "SODALanguagePacks"
+    set FOLDERS=!FOLDERS! "System Profile"
     set FOLDERS=!FOLDERS! "ThirdPartyModuleList64"
     set FOLDERS=!FOLDERS! "Webstore Downloads"
 
@@ -111,11 +114,13 @@ REM set FOLDERS=!FOLDERS! "Default\File System"
 REM set FOLDERS=!FOLDERS! "Default\IndexedDB"
     set FOLDERS=!FOLDERS! "Default\JumpListIconsMostVisited"
     set FOLDERS=!FOLDERS! "Default\JumpListIconsRecentClosed"
+REM set FOLDERS=!FOLDERS! "Default\Managed Extension Settings"
 REM set FOLDERS=!FOLDERS! "Default\Platform Notifications"
     set FOLDERS=!FOLDERS! "Default\Search Logos"
 REM set FOLDERS=!FOLDERS! "Default\Sync App Settings"
 REM set FOLDERS=!FOLDERS! "Default\Sync Extension Settings"
     set FOLDERS=!FOLDERS! "Default\VideoDecodeStats"
+    set FOLDERS=!FOLDERS! "Default\WebRTC Logs"
     set FOLDERS=!FOLDERS! "Default\WebrtcVideoStats"
 
 echo Deleting Chrome cache and temporary folders...
