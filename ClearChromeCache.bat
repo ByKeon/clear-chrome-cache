@@ -90,8 +90,27 @@ REM set FOLDERS=!FOLDERS! "Default\Web Applications"
 REM set FOLDERS=!FOLDERS! "Default\WebStorage"
 
 REM ========================================================
-REM =============== Custom folders to delete ===============
+REM ============= Custom top folders to record =============
 REM ========================================================
+    set FOLDERS=!FOLDERS! "DeferredBrowserMetrics"
+    set FOLDERS=!FOLDERS! "ThirdPartyModuleList64"
+    set FOLDERS=!FOLDERS! "Webstore Downloads"
+
+REM ========================================================
+REM ============= Custom sub folders to record =============
+REM ========================================================
+    set FOLDERS=!FOLDERS! "coupon_db"
+    set FOLDERS=!FOLDERS! "feedv2"
+REM set FOLDERS=!FOLDERS! "File System"
+REM set FOLDERS=!FOLDERS! "IndexedDB"
+    set FOLDERS=!FOLDERS! "JumpListIconsMostVisited"
+    set FOLDERS=!FOLDERS! "JumpListIconsRecentClosed"
+REM set FOLDERS=!FOLDERS! "Platform Notifications"
+    set FOLDERS=!FOLDERS! "Search Logos"
+    set FOLDERS=!FOLDERS! "Sync App Settings"
+    set FOLDERS=!FOLDERS! "Sync Extension Settings"
+    set FOLDERS=!FOLDERS! "VideoDecodeStats"
+    set FOLDERS=!FOLDERS! "WebrtcVideoStats"
 
 echo Deleting Chrome cache and temporary folders...
 
