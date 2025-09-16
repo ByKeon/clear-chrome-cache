@@ -100,7 +100,9 @@ REM ========================================================
 REM ========================================================
 REM ============= Custom sub folders to record =============
 REM ========================================================
+    set FOLDERS=!FOLDERS! "Default\Collaboration"
     set FOLDERS=!FOLDERS! "Default\coupon_db"
+    set FOLDERS=!FOLDERS! "Default\DataSharing"
     set FOLDERS=!FOLDERS! "Default\DawnCache"
     set FOLDERS=!FOLDERS! "Default\feedv2"
 REM set FOLDERS=!FOLDERS! "Default\File System"
