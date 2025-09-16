@@ -1,6 +1,6 @@
 @echo off
 REM ClearChromeCache.bat
-REM Clean Chrome User Data cache and temporary folders without affecting important data
+REM Clear Chrome User Data cache and temporary folders without affecting important data
 
 setlocal enabledelayedexpansion
 
@@ -93,7 +93,7 @@ REM ========================================================
 REM =============== Custom folders to delete ===============
 REM ========================================================
 
-echo Cleaning Chrome cache and temporary folders...
+echo Deleting Chrome cache and temporary folders...
 
 for %%F in (!FOLDERS!) do (
     if exist %%~F (
@@ -104,6 +104,6 @@ for %%F in (!FOLDERS!) do (
     )
 )
 
-echo All selected folders have been cleaned.
+echo All selected folders have been cleared.
 pause
 endlocal
