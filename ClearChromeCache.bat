@@ -99,18 +99,18 @@ REM ========================================================
 REM ========================================================
 REM ============= Custom sub folders to record =============
 REM ========================================================
-    set FOLDERS=!FOLDERS! "coupon_db"
-    set FOLDERS=!FOLDERS! "feedv2"
-REM set FOLDERS=!FOLDERS! "File System"
-REM set FOLDERS=!FOLDERS! "IndexedDB"
-    set FOLDERS=!FOLDERS! "JumpListIconsMostVisited"
-    set FOLDERS=!FOLDERS! "JumpListIconsRecentClosed"
-REM set FOLDERS=!FOLDERS! "Platform Notifications"
-    set FOLDERS=!FOLDERS! "Search Logos"
-    set FOLDERS=!FOLDERS! "Sync App Settings"
-    set FOLDERS=!FOLDERS! "Sync Extension Settings"
-    set FOLDERS=!FOLDERS! "VideoDecodeStats"
-    set FOLDERS=!FOLDERS! "WebrtcVideoStats"
+    set FOLDERS=!FOLDERS! "Default\coupon_db"
+    set FOLDERS=!FOLDERS! "Default\feedv2"
+REM set FOLDERS=!FOLDERS! "Default\File System"
+REM set FOLDERS=!FOLDERS! "Default\IndexedDB"
+    set FOLDERS=!FOLDERS! "Default\JumpListIconsMostVisited"
+    set FOLDERS=!FOLDERS! "Default\JumpListIconsRecentClosed"
+REM set FOLDERS=!FOLDERS! "Default\Platform Notifications"
+    set FOLDERS=!FOLDERS! "Default\Search Logos"
+    set FOLDERS=!FOLDERS! "Default\Sync App Settings"
+    set FOLDERS=!FOLDERS! "Default\Sync Extension Settings"
+    set FOLDERS=!FOLDERS! "Default\VideoDecodeStats"
+    set FOLDERS=!FOLDERS! "Default\WebrtcVideoStats"
 
 echo Deleting Chrome cache and temporary folders...
 
